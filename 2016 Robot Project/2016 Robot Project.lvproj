@@ -114,9 +114,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
-			<Item Name="ADI MXP IMU" Type="Folder">
-				<Item Name="FRC ADI MXP IMU.lvlib" Type="Library" URL="../FRC ADI MXP IMU.lvlib"/>
-			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -733,6 +730,24 @@ AddOutputFilter chunkFilter
 			<Item Name="Normalize Score.vi" Type="VI" URL="../Vision Support Code/Normalize Score.vi"/>
 			<Item Name="Normalized Range Compare 2016.vi" Type="VI" URL="../Vision Support Code/Normalized Range Compare 2016.vi"/>
 			<Item Name="Sorted Particle Report 2016.vi" Type="VI" URL="../Vision Support Code/Sorted Particle Report 2016.vi"/>
+			<Item Name="WPI_ADI_IMU_Close.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_Close.vi"/>
+			<Item Name="WPI_ADI_IMU_Get AHRS.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_Get AHRS.vi"/>
+			<Item Name="WPI_ADI_IMU_Get Angles.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_Get Angles.vi"/>
+			<Item Name="WPI_ADI_IMU_Get Instant.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_Get Instant.vi"/>
+			<Item Name="WPI_ADI_IMU_GetSetRefNum.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_GetSetRefNum.vi"/>
+			<Item Name="WPI_ADI_IMU_KalmanPitchRollYaw.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_KalmanPitchRollYaw.vi"/>
+			<Item Name="WPI_ADI_IMU_Open.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_Open.vi"/>
+			<Item Name="WPI_ADI_IMU_RefNum Registry Get.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_RefNum Registry Get.vi"/>
+			<Item Name="WPI_ADI_IMU_Reset.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_ADI_IMU_Reset.vi"/>
+			<Item Name="WPI_AnalogDevicesIMUDevRef.ctl" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_AnalogDevicesIMUDevRef.ctl"/>
+			<Item Name="WPI_AnalogDevicesIMUInterruptDevRef.ctl" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_AnalogDevicesIMUInterruptDevRef.ctl"/>
+			<Item Name="WPI_IMU_ADIS16448_Data-Address to SPI.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_Data-Address to SPI.vi"/>
+			<Item Name="WPI_IMU_ADIS16448_ReadRegister.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_ReadRegister.vi"/>
+			<Item Name="WPI_IMU_ADIS16448_ReadSensorData.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_ReadSensorData.vi"/>
+			<Item Name="WPI_IMU_ADIS16448_Registers.ctl" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_Registers.ctl"/>
+			<Item Name="WPI_IMU_ADIS16448_WriteRegister.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_ADIS16448_WriteRegister.vi"/>
+			<Item Name="WPI_IMU_FGV.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_FGV.vi"/>
+			<Item Name="WPI_IMU_Loop.vi" Type="VI" URL="../../../../../Downloads/ADIS16448-RoboRIO-Driver-master (1)/ADIS16448-RoboRIO-Driver-master/LabVIEW/ADI MXP IMU/WPI_IMU_Loop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
